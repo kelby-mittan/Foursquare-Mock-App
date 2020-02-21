@@ -14,6 +14,7 @@
 		02B4E8AA2400724700E51CD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02B4E8A92400724700E51CD5 /* Assets.xcassets */; };
 		02B4E8AD2400724700E51CD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02B4E8AB2400724700E51CD5 /* LaunchScreen.storyboard */; };
 		02B4E8B82400724800E51CD5 /* Foursquare_Mock_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4E8B72400724800E51CD5 /* Foursquare_Mock_AppTests.swift */; };
+		02B4E8C4240078F400E51CD5 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B4E8C3240078F400E51CD5 /* APIKeys.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		02B4E8B32400724800E51CD5 /* Foursquare-Mock-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foursquare-Mock-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		02B4E8B72400724800E51CD5 /* Foursquare_Mock_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foursquare_Mock_AppTests.swift; sourceTree = "<group>"; };
 		02B4E8B92400724800E51CD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02B4E8C3240078F400E51CD5 /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		02B4E89F2400724300E51CD5 /* Foursquare-Mock-App */ = {
 			isa = PBXGroup;
 			children = (
+				02B4E8C22400786D00E51CD5 /* APIKeys */,
 				02B4E8A02400724300E51CD5 /* AppDelegate.swift */,
 				02B4E8A22400724300E51CD5 /* SceneDelegate.swift */,
 				02B4E8A42400724300E51CD5 /* ViewController.swift */,
@@ -97,6 +100,14 @@
 				02B4E8B92400724800E51CD5 /* Info.plist */,
 			);
 			path = "Foursquare-Mock-AppTests";
+			sourceTree = "<group>";
+		};
+		02B4E8C22400786D00E51CD5 /* APIKeys */ = {
+			isa = PBXGroup;
+			children = (
+				02B4E8C3240078F400E51CD5 /* APIKeys.swift */,
+			);
+			path = APIKeys;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +213,7 @@
 			files = (
 				02B4E8A52400724300E51CD5 /* ViewController.swift in Sources */,
 				02B4E8A12400724300E51CD5 /* AppDelegate.swift in Sources */,
+				02B4E8C4240078F400E51CD5 /* APIKeys.swift in Sources */,
 				02B4E8A32400724300E51CD5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
